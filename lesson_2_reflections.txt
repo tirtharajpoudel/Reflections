@@ -10,6 +10,9 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	git diff //diff between working directory and staging area(working directory and most recent commit).
+	git diff --staged //diff between staging area and most recent commit.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
